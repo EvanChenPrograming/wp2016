@@ -2,3 +2,10 @@
     color: black;
     font-size: 72px;
 }
+iframe:focus {
+    outline: none;
+}
+
+iframe[seamless] {
+    display: block;
+}
